@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Rationale&display=swap');
+
+body {
+    font-family: 'Rationale', sans-serif;
+}
+  
+/* Estilo do campo de comentário */
+textarea {
+  font-size: 16px;
+  padding: 10px;
+  border: 2px solid #bbb;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+  
+}
+
+/* Estilo do botão de enviar */
+input[type="submit"] {
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+  
+input[type="submit"]:hover {
+  background-color: #127015;
+}
+
+/* Estilo dos comentários */
+#comentarios p {
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+/* Estilo da mensagem de alerta */
+#mensagem {
+  font-family: 'Roboto', sans-serif;
+  color: red;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Estilo do comentário bloqueado */
+#comentarioBloqueado {
+  font-family: 'Roboto', sans-serif;
+  display: none; 
+  color: red;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* Estilo do fundo da página */
+body {
+  background-color: #222;
+  color: #f8e7e7;
+}
+
+/* Estilo da informação superior*/
+#digite {
+  font-size: 25px;
+}
+
+#israel {
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    font-family: 'Rationale', sans-serif; 
+    font-weight: 800;
+    font-size: 22px;
+    color: #fff2e7;
+}

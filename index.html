@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+	<title>Verificador de Comentários</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+	<link class= "icon-website"  rel="Website Icon" type="png" href="imd.png">
+</head>
+
+<body>
+    <form onsubmit="return verificaPalavrasInadequadas()">
+        <label id= "digite" for="comentario">Digite seu comentário:</label>
+        <br>
+        <textarea id="comentario" name="comentario" rows="5" cols="50"></textarea>
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+
+    <h3>Comentários:</h3>
+    <div id="comentarios"></div>
+    <div id="mensagem"></div>
+    <div id="comentarioBloqueado"></div>
+
+    <script src="script.js"></script>
+
+	<footer>
+      <p id="israel">Feito por Israel Hall Leighton</p>
+    </footer>
+</body>
+
+</html>
